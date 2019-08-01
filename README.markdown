@@ -66,7 +66,6 @@
     root@4b78a9a4f661:/# uname -a
     Linux 4b78a9a4f661 4.9.125-linuxkit #1 SMP Fri Sep 7 08:20:28 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
     ```
-
 11. Update docker 
 12. Optional allow firewall for vpnkit.exe
 13. Enable kubernetes in the settings
