@@ -72,3 +72,10 @@ kubectl describe svc hello-node
 ```
 
 ### Optional: Using deployment file
+```
+kubectl create -f deployment.yaml
+
+kubectl get deployment
+
+kubectl describe deployment webapp1
+```
