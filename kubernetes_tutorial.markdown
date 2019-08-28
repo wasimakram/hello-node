@@ -1,4 +1,14 @@
-### Getting started with Kubernetes
+## Getting started with Kubernetes
+
+### Info commands
+
+```
+kubectl version
+kubectl cluster-info
+kubectl get nodes
+```
+
+#### Hello Node example  
 
 1. Optional: Build an image 
     ```
@@ -48,8 +58,17 @@
     kubectl delete deployment hello-node
     ```
 
+### Scale Containers
+```
+kubectl scale --replicas=3 deployment hello-node
+```
 
+```
+kubectl get pods
+```
 
+```
+kubectl describe svc hello-node
+```
 
-
-
+### Optional: Using deployment file
